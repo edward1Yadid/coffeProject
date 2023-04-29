@@ -48,6 +48,8 @@
 
  img {
      object-fit: cover;
+     width: 100%;
+     min-width: 320px;
  }
 
  #fullname,
