@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <meta name="description"
-        content="my first project coffe- Landing page this is good practik in css and html, this page is for coffe business, they got good price like Starbucks and good taste like Aroma come with all the family and you will leave with 100% width (●'◡'●)">
+        content="my first project coffe- Landing page this is good practice in css and html, this page is for coffe business, they got good price like Starbucks and good taste like Aroma come with all the family and you will leave with 100% width (●'◡'●)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="#" />
+
 
     <title>coffe time landing page-1</title>
 </head>
@@ -26,19 +28,19 @@
                     <h1 class="form-control">קפה טוב לבוקר טוב</h1>
                     <P class="form-control">לקבת קופון לקפה חינם ומפנק שיפתח לכם את היום בחיוך, יש למלא את הפרטים</P>
                 </div>
-                <form class="margin-form" action="mailto:ediyadid@gmail.com" method="post">
+                <form id="formInterface" class="margin-form">
                     <div class="form-control">
                         <label class="label" for="fullname"> שם מלא</label>
-                        <input type="text" id="fullname" name="fullname" placeholder="שם" required>
+                        <input type="text" id="fullname" name="fullname" placeholder="שם">
                     </div>
 
                     <div class="form-control">
                         <label class="label" for="email">דוא"ל</label>
-                        <input type="email" id="email" name="email" placeholder="אימייל" required>
+                        <input type="text" id="email" name="email" placeholder="אימייל">
                     </div>
 
                     <div class="form-control">
-                        <button class="button-1" type="submit">שליחה</button>
+                        <button id="btnSubmit" type="submit">שליחה</button>
                     </div>
                 </form>
             </div>
@@ -49,6 +51,8 @@
 
     </main>
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>
