@@ -12,7 +12,7 @@ const AnimationID = setInterval(() => {
   containerAnimation.appendChild(div);
   count++;
 
-  if (count == 101) {
+  if (count == 50) {
     clearInterval(AnimationID);
   }
 }, 100);

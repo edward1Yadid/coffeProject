@@ -193,7 +193,3 @@
  .bubble {
      background-image: url(./img/coffeAnimation.jpg);
  }
-
- .bubble:hover {
-     transform: scale(.3125rem);
- }
