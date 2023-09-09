@@ -1,7 +1,7 @@
 ////////////////////////////////////validation input/////////////////////////////////////////////
 const email = document.getElementById("email");
 const fullname = document.getElementById("fullname");
-const button = document.getElementById("btnSubmit");
+
 const formInterface = document.getElementById("formInterface");
 
 /////regex check for inputs
