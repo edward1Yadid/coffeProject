@@ -191,7 +191,7 @@
  }
 
  .bubble {
-     background-image: url(/img/coffeAnimation.jpg);
+     background-image: url(./img/coffeAnimation.jpg);
  }
 
  .bubble:hover {
